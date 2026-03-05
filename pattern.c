@@ -24,14 +24,14 @@ int main()
      * * * *
      * * * * *
      */
-    for (int k = 1; k <= 5; k++)
-    {
-        for (int l = 1; l <= k; l++)
-        {
-            printf(" * ", l);
-        }
-        printf("\n");
-    }
+    // for (int k = 1; k <= 5; k++)
+    // {
+    //     for (int l = 1; l <= k; l++)
+    //     {
+    //         printf(" * ", l);
+    //     }
+    //     printf("\n");
+    // }
 
     return 0;
 }
