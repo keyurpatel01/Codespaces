@@ -8,6 +8,7 @@ Arithmetic Operator : used for calculation
 int main()
 {
     int num_1 = 10, num_2 = 20;
+    printf("\nArithmetic Operator\n");
     printf("\n Num is %d", num_1 + num_2);
     printf("\n Num is %d", num_1 - num_2);
     printf("\n Num is %d", num_1 * num_2);
@@ -20,6 +21,8 @@ int main()
     */
     int num1 = 5;
     num1 += 3;
+    printf("\nAssignment Operator\n");
+
     printf("%d", num1);
 
     int num2 = 10;
@@ -30,28 +33,31 @@ int main()
     Logical Operator : &&,||,!
     */
 
-    int a = 10;
-    printf("\n%d", a > 2 && a < 20);
-    printf("\n%d", a > 2 || a < 10);
-    printf("\n%d", !(a > 0));
+    int y = 10;
+    printf("\nLogical Operator\n");
+    printf("\n%d", y > 2 && y < 20);
+    printf("\n%d", y > 2 || y < 10);
+    printf("\n%d", !(y > 0));
 
     /*
     Relational Operator : <,>,<=,>=,==,!=
     */
 
-    int a = 10, b = 20;
-    printf("\n%d\n", a > b);
-    printf("\n%d\n", a < b);
-    printf("\n%d\n", a >= b);
-    printf("\n%d\n", a <= b);
-    printf("\n%d\n", a == b);
-    printf("\n %d \n", a != b);
+    int l = 10, b = 20;
+    printf("\nRelational Operator\n");
+    printf("\n%d\n", l > b);
+    printf("\n%d\n", l < b);
+    printf("\n%d\n", l >= b);
+    printf("\n%d\n", l <= b);
+    printf("\n%d\n", l == b);
+    printf("\n %d \n", l != b);
 
     /*
     Ternery Operator :
     */
     int marks = 49;
     char result = (marks >= 33) ? 'p' : 'f';
+    printf("\nTernery Operator\n");
     printf("\nresult is %c\n", result);
 
     int no1 = 85, no2 = 410;
