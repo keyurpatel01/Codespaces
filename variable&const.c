@@ -8,7 +8,7 @@ int main(){
     salary = 3000000;
     const double pi = 3.14;
     printf("Salary is %d",salary);
-    int age = 12;
+    int age = 12,
     age = 20;
     // pi = 2;
     // year = 2025;
